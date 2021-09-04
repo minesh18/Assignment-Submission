@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation
+{
+    height: 60px;
+    width:100%;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+}
+
+.container
+{
+    height: 60px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+/* Logo Css */
+.logo
+{
+    height: 60px;
+    width: 15%;
+    font-size: 25px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Navigation CSS */
+.nav
+{
+    height: 60px;
+    width: 30%;   
+}
+
+.nav-links
+{
+    display: flex;
+}
+.nav-link
+{
+    list-style-type: none;
+    height: 60px;
+    width: 25%;
+    text-align: center;
+    line-height: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    color: white;
+}
+.nav-link:hover{
+background-color: honeydew;
+color: black;
+}
+
+/* Banner css */
+.banner
+{
+    height: 400px;
+    width: 100%;
+    background-color: indianred;
+    background-image: url('./image/tomimg.jpg');
+    background-size: cover;
+    /* background-position:center; */
+    display: flex;
+    align-items: center;
+}
+.banner_section
+{
+    height: 100px;
+    width: 40%;
+    /* background-color: white; */
+    margin-left: 200px;
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color:brown;
+}
+.btn
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    background-color: crimson;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color: tomato;
+}
+/* Movie CSS */
+.movie
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.movie_container
+{
+    width: 80%;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.title
+{
+    font-size: 30px;
+    font-family:Cambria;
+}
+.movie_card
+{
+    width:22%;
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+.movie_detail
+{
+    height: 175px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.8);
+    transition: .4s;
+    cursor: pointer;
+}
+.movie_detail:hover
+{
+    height: 350px;
+}
+.padd
+{
+    padding: 20px;
+}
+.movie_title
+{
+    color: white;
+    font-size:20px ;
+    font-family:Cambria;
+}  
+.card_1
+{
+    background-image: url('./image/spidermanhomecoming.jpg');
+}
+.card_2
+{
+    background-image: url('./image/spidermanfarfromhom.jpg');
+}
+.card_3
+{
+    background-image: url('./image/Chaos-Walking-poste.jpg');
+}
+.card_4
+{
+    background-image: url('./image/thedevilalltime.jpg');
+}
+.card_5
+{
+    background-image: url('./image/cherry2021.jpg');
+}
+.card_6
+{
+    background-image: url('./image/avengerendgame.jpg');
+}
+.card_7
+{
+    background-image: url('./image/infinitywar.jpg');
+}
+.card_8
+{
+    background-image: url('./image/lostcity.jpg');
+}
+.about
+{
+    height: 200px;
+    width: 100%;
+    background-color: indianred; 
+}
+.about_section {
+    padding: 50px;
+    text-align: center;
+  }
